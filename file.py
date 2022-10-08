@@ -17,3 +17,17 @@ print(f.readline())
 print(f.readline())
 print(f.readline())
 f.close()
+
+#open file and append content
+f=open("demofile.txt","a")
+f.write("fjkvnnvfjndfjvnijvndivjnndvidnin")
+f.close()
+f=open("demofile.txt","r")
+print(f.read())
+
+#open the file and overwrite
+f=open("demofile.txt","w")
+f.write("fvfvdfvdvdfv")
+f.close()
+f=open("demofile.txt","r")
+print(f.read())
