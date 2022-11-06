@@ -4,7 +4,7 @@ print(num)"""
 
 
 
-def name(x):
-    return lambda a:a+x
-num=name(10)
+def name(x,b):
+    return lambda a:(a+x)*b
+num=name(10,6)
 print(num(5))
