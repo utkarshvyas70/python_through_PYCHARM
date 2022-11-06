@@ -33,10 +33,27 @@ name("Utkarsh", "Vyas")"""
 name("Utkarsh", "Vyas")"""
 
 
-def name(name, *args):
+"""def name(name, *args):
     print(name)
     print(args)
-name("Utkarsh","Vyas")
+name("Utkarsh","Vyas")"""
+
+"""def info(name, **data):
+    print(name)
+    print(data)
+    
+
+
+info("Utkarsh",age=19,place="Kota",num=432443232424234)"""
+
+
+def info(name, **data):
+    print(name)
+    print(data)
+    for i, j in data.items():
+        print(i, j)
+
+info("Utkarsh", age=19, place="Kota", num=432443232424234)
 
 
 
