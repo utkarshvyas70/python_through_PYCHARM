@@ -9,8 +9,10 @@ it the salary is missing in the function the assign the default value 10000 to s
 
 ben(9000) mike(15000) bob()"""
 
+a=input("Name")
 def hungama(employee,salary=10000):
-    print(employee,salary)
-hungama("ben",9000)
-hungama("mike",15000)
-hungama("bob")
+    x=input("Enter your Name:")
+    print(employee,"salart=",salary)
+hungama(a,9000)
+hungama(a,15000)
+hungama(a)
