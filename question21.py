@@ -16,6 +16,6 @@ b)
 a=5
 for rows in range(1,a+1):
     for column in range(1,rows+1):
-        print(rows,end='')
-    print('')
+        print(rows,end='  ')
+    print(' ')
 
