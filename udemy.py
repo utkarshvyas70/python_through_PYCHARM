@@ -61,3 +61,41 @@ if add_pepperoni=="Y":
 if extra_cheese == "Y":
     bill+=1
 print(f"Your final bill is: ${bill}.")
+
+
+#Love Calculator
+
+print("Welcome to the Love Calculator!")
+name1 = input("What is your name? \n")
+name2 = input("What is their name? \n")
+
+
+
+string=name1+name2
+upper_case=string.upper()
+
+t=upper_case.count("T")
+r=upper_case.count("R")
+u=upper_case.count("U")
+e=upper_case.count("E")
+
+true=t+r+u+e
+
+l=upper_case.count("L")
+o=upper_case.count("O")
+v=upper_case.count("V")
+e=upper_case.count("E")
+
+love=l+o+v+e
+
+score=int(str(true)+str(love))
+
+if (score<10) or (score>90):
+    print(f"Your score is {score}, you go together like coke and mentos.")
+
+elif (score>=40) and (score<=50):
+    print(f"Your score is {score}, you are alright together.")
+
+else:
+    print(f"Your score is {score}.")
+
