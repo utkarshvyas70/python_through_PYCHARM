@@ -99,7 +99,7 @@ elif (score>=40) and (score<=50):
 else:
     print(f"Your score is {score}.")
 
-#treasure game.
+#Treasure game.
 print('''
 *******************************************************************************
           |                   |                  |                     |
@@ -145,5 +145,10 @@ elif a == "left":
         else:
             print("Game over.")
 
-
-
+# Heads or Tails.
+import random
+coin=random.randint(0,1)
+if coin == 1:
+    print("Tails")
+elif coin == 0:
+    print("Heads")
